@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Jefe</title>
+</head>
+<body>
+    <header>
+        <h1> Tacos el Jefe, desde 2022</h1>
+    </header>
+
+    <section>
+
+        <img src="./tacos el jefe.png" alt="Logo tacos el jefe">
+
+        <h2>Menú</h2>
+        <h3> Tacos grandes</h3>
+        <p>Todos incluyen nopales y cebollas</p>
+        <ul>
+            <li>Bisteck..................... $30</li>
+            <li>Chorizo..................... $30</li>
+            <li>Chuleta..................... $30</li>
+            <li>Pastor...................... $30</li>
+            <li>Campechano.................. $30</li>
+        </ul>
+        <hr>
+
+        <h3>Tacos pequeños</h3>
+        <p>Con cilantro y cebolla</p>
+        <ul><li>Bisteck..................... $15</li>
+            <li>Chorizo..................... $15</li>
+            <li>Chuleta..................... $15</li>
+            <li>Pastor...................... $15</li>
+            <li>Campechano.................. $15</li> 
+        </ul>
+            <hr>
+
+        <h3>Tacos especiales</h3>
+        <p>Haz tu combo con refresco por $10 más</p>
+        <dl>
+            <dt><b> Labrador</b>....................$40</dt>
+            <dd> -Tortilla de maiz con pollo asado</dd>
+            <dt><b> Pastor Aleman</b>...............$40</dt>
+            <dd>-Tortilla de harina con carne de res y queso</dd>
+            <dt><b>Pug</b>.........................$40</dt>
+            <dd>-Tortilla de maiz con chuleta</dd>
+            <dt><b>Adoptado</b>....................$40</dt>
+            <dd>-Tortilla de Maíz con pastor</dd>
+        </dl>
+    </section>
+    
+        <hr>
+        <section>
+        <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/1d9HBiUxauzUvKNY7" target="_blank">Dg. 13 E #26a-216, La Ceja, Antioquia</a></td>
+                <td>L - D 5PM-3AM</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/KWqUMpZzMZLYaiR56" target="_blank">Cra. 22, La Ceja, Antioquia</a></td>
+                <td>L - D 5PM-3AM</td>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/3tBGRnrweS6N3o4d6" target="_blank">Cl. 20 #20-30, La Ceja, Antioquia</a></td>
+                <td>L- D  24H</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aqui</h3>
+
+        <Form action="">
+
+        <p>¿De qué taqueria quieres?</p>
+        <select>
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <h3>De qué tacos quieres? </h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>¿Cuántos?</th>
+                <th>¿Tamaño?</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">Bisteck</td><label for="Bisteck"></label>
+                <td><input type="number" id="BiscteckNumber" name="BiscteckNumber" placeholder="¿Cuántos?"></td>
+                <td><input type="radio" id="pequeño" name="size" value="pequeño">
+                    <label for="pequeño"> Pequeño</label>
+                    <input type="radio" id="grande" name="size" value="grande">
+                    <label for="grande"> Grande</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">Chorizo</td><label for="Chorizo"></label>
+                <td><input type="number" id="ChorizoNumber" name="ChorizoNumber" placeholder="¿Cuántos?"></td>
+                <td><input type="radio" id="pequeño" name="size" value="pequeño">
+                    <label for="pequeño"> Pequeño</label>
+                    <input type="radio" id="grande" name="size" value="grande">
+                    <label for="grande"> Grande</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" id="Pastor" name="Pastor" value="Pastor">Pastor</td><label for="Pastor"></label>
+                <td><input type="number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuántos?"></td>
+                <td><input type="radio" id="pequeño" name="size" value="pequeño">
+                    <label for="pequeño"> Pequeño</label>
+                    <input type="radio" id="grande" name="size" value="grande">
+                    <label for="grande"> Grande</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">Chuleta</td><label for="Chuleta"></label>
+                <td><input type="number" id="ChuletaNumber" name="ChuletaNumber" placeholder="¿Cuántos?"></td>
+                <td><input type="radio" id="pequeño" name="size" value="pequeño">
+                    <label for="pequeño"> Pequeño</label>
+                    <input type="radio" id="grande" name="size" value="grande">
+                    <label for="grande"> Grande</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" id="Campechano" name="Campechano" value="Campechano">Campechano</td><label for="Campechano"></label>
+                <td><input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="¿Cuántos?"></td>
+                <td><input type="radio" id="pequeño" name="size" value="pequeño">
+                    <label for="pequeño"> Pequeño</label>
+                    <input type="radio" id="grande" name="size" value="grande">
+                    <label for="grande"> Grande</label></td>
+            </tr>
+        </table>
+
+            <h3>Ya casi terminamos</h3>
+            <p>*-* Tus datos, para enviarte todo el sabor del jefe :D </p>
+
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+            <br><br>
+
+            <label for="Teléfono">Teléfono:</label><br>
+            <input type="number" id="Teléfono" name="Teléfono" placeholder="¿Dónde te contactamos?">
+            <br><br>
+            
+            <label for="Dirección">Dirección:</label><br>
+            <input type="text" id="Dirección" name="Dirección" placeholder="¿A dónde te mandamos todo el sabor?">
+            <br><br>
+
+            <button type="submit">Enviame todo el sabor</button>
+        </Form>
+    </section>
+
+</body>
+</html>
